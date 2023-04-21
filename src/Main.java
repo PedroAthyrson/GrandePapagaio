@@ -42,9 +42,6 @@ public class Main {
                     papagaio.postar(usuario, mensagem);
                 }
 
-                else if(comando.equals("listar"))  {
-                    papagaio.listaDeUsuarios();
-                }
 
             } else {
                 if (comando.equals("sair")) {
