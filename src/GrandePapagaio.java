@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GrandePapagaio {
-    private List<Usuario> usuarios = new ArrayList<>();
+    List<Usuario> usuarios = new ArrayList<>();
 
     public Usuario getUsuario(String nome) throws InexistentUserException {
         for (Usuario usuario: usuarios) {

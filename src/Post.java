@@ -19,6 +19,10 @@ public class Post {
         return texto;
     }
 
+    public LocalDateTime getData() {
+        return data;
+    }
+
     public void setTexto(String texto) {
         this.texto = texto;
     }
