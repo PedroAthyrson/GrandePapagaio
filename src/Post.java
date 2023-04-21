@@ -11,7 +11,6 @@ public class Post {
         this.texto = texto;
         this.data = LocalDateTime.now();
     }
-
     public String getNomeDoUsuario() {
         return nomeDoUsuario;
     }
